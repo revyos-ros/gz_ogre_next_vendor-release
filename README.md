@@ -1,3 +1,26 @@
+## gz_ogre_next_vendor (jazzy) - 0.0.5-2
+
+The packages in the `gz_ogre_next_vendor` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy gz_ogre_next_vendor --override-release-repository-push-url git@github.com:revyos-ros/gz_ogre_next_vendor-release` on `Mon, 17 Jun 2024 12:03:14 -0000`
+
+The `gz_ogre_next_vendor` package was released.
+
+Version of package(s) in repository `gz_ogre_next_vendor`:
+
+- upstream repository: https://github.com/gazebo-release/gz_ogre_next_vendor.git
+- release repository: https://github.com/revyos-ros/gz_ogre_next_vendor-release.git
+- rosdistro version: `0.0.5-1`
+- old version: `0.0.5-1`
+- new version: `0.0.5-2`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## gz_ogre_next_vendor (jazzy) - 0.0.5-1
 
 The packages in the `gz_ogre_next_vendor` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy gz_ogre_next_vendor` on `Tue, 07 May 2024 21:43:04 -0000`
