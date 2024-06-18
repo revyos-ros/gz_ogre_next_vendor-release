@@ -1,0 +1,25 @@
+From 015a28a5ca52937cb8e8c27e22f6b477aeeed918 Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
+Date: Tue, 18 Jun 2024 11:00:39 +0800
+Subject: [PATCH] disable SIMD on riscv64.
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a904707..a928ced 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -5,7 +5,7 @@ find_package(ament_cmake REQUIRED)
+ find_package(ament_cmake_vendor_package REQUIRED)
+ 
+ set(EXTRA_CMAKE_FLAGS)
+-if(CMAKE_SYSTEM_PROCESSOR MATCHES "^(aarch64.*|AARCH64.*|arm64.*|ARM64.*|arm.*|ARM.*)")
++if(CMAKE_SYSTEM_PROCESSOR MATCHES "^(aarch64.*|AARCH64.*|arm64.*|ARM64.*|arm.*|ARM.*|riscv64.*)")
+   # Flags for non SIMD architectures
+   # https://github.com/gazebo-forks/ogre-2.3-release/blob/960bb19664879282b979e4ed8cb3ce278c875bdb/debian/rules#L21-L28
+   set(EXTRA_CMAKE_FLAGS -DOGRE_SIMD_NEON:BOOL=FALSE  -DOGRE_SIMD_SSE2:BOOL=FALSE)
+-- 
+2.41.0
+
