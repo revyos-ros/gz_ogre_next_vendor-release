@@ -1,4 +1,4 @@
-From 70304d58f0bcbc455a24c523ac26b2550039f9af Mon Sep 17 00:00:00 2001
+From 9bc6774d657a28588920809a6bdef609d7f0c5e4 Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Tue, 18 Jun 2024 11:02:50 +0800
 Subject: [PATCH] add disable-SIMD-on-riscv64 patch.
