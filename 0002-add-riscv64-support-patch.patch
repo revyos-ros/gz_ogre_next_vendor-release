@@ -1,4 +1,4 @@
-From 22d68ceaa3889360570691b140bd3231e2bcfe03 Mon Sep 17 00:00:00 2001
+From 514721128309fabe7af30cf8deb46d6ee01f28bc Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Thu, 20 Jun 2024 13:20:11 +0800
 Subject: [PATCH 2/2] add riscv64 support patch.
